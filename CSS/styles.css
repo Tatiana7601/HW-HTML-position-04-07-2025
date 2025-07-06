@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+* {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    color: whitesmoke;
+    text-shadow:
+            1px 1px 2px #b4866e,
+            0 0 5px rgba(58, 46, 42),
+            0 0 10px rgba(58, 46, 42, 0.5),
+            0 0 15px rgba(58, 46, 42, 0.3);
+    z-index: 1;
+    background-color: #b4846c;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    box-shadow:1px 1px 2px #3a2e2a;
+
+}
+
+
+.box {
+    width: 97%;
+    box-sizing: border-box;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    padding: 120px 10px 0 10px;
+    margin: 20px 0 90px 0;
+}
+
+.card {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    margin: 20px 0;
+    background-color: rgba(245, 233, 211,0.5);
+    border-radius: 20px;
+}
+
+card .market-new {
+    position: relative;
+}
+
+.go-to-shop > h2 {
+    position: absolute;
+    top: 250px;
+    left: 60px;
+    font-size: 50px;
+    color: rgba(58, 46, 42, 0.84);
+    text-shadow:
+            1px 1px 2px whitesmoke,
+            0 0 5px rgba(58, 46, 42, 0.5),
+            0 0 10px rgba(58, 46, 42, 0.3);
+
+}
+
+.go-to-shop > p {
+    position: absolute;
+    font-size: 30px;
+    color: rgba(58, 46, 42, 0.84);
+    top: 350px;
+    left: 65px;
+}
+
+h2 {
+    font-size: 50px;
+    color: rgba(58, 46, 42, 0.84);
+    text-shadow:
+            1px 1px 2px whitesmoke,
+            0 0 5px rgba(58, 46, 42, 0.5),
+            0 0 10px rgba(58, 46, 42, 0.3);
+}
+
+.product {
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.product .pack {
+    background-color: #b4846c;
+    border-radius: 5px;
+    font-size: 14px;
+    min-width: 150px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pack{
+    box-shadow:1px 1px 5px #3a2e2a;
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+}
+.pack img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card.summer-coffee, .card.winter-coffee, .info-for-coffee {
+    position: relative;
+}
+
+.card.summer-coffee > img {
+    position: absolute;
+    left: 5%;
+}
+
+.card.summer-coffee > h2 {
+    position: absolute;
+    top: 90px;
+    left: 55%;
+}
+
+.card.summer-coffee > p {
+    position: absolute;
+    top: 200px;
+    left: 55.5%;
+    font-size: 30px;
+    color: rgba(58, 46, 42, 0.84);
+}
+
+.card.winter-coffee > h2 {
+    position: absolute;
+    top: 90px;
+    left: 5%;
+}
+
+.card.winter-coffee > p {
+    position: absolute;
+    top: 200px;
+    left: 5%;
+    font-size: 30px;
+    color: rgba(58, 46, 42, 0.84);
+}
+
+.card.winter-coffee > img {
+    position: absolute;
+    left: 55%;
+}
+
+.info-for-coffee{
+    background-image: url("../images/history.png");
+    background-repeat: no-repeat;
+    background-position: 40%;
+}
+
+
+.info-for-coffee > a {
+    position: absolute;
+    left: 48%;
+    bottom: 130px;
+    font-size: 24px;
+}
+
+.info-for-coffee > h2 {
+    position: absolute;
+    left: 10%;
+    top: 130px;
+    color:#FFFFFF;
+    text-shadow:
+            1px 1px 2px #3a2e2a,
+            0 0 10px #fff;
+
+}
+
+.site-footer {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+
+    background-color: #eadbc8;
+    position: fixed;
+    bottom: 0;
+    height: 8%;
+    width: 100%;
+}
+.block-left,.block-center,.block-right{
+}
+
+.block-left {
+    position: absolute;
+    left: 60px;
+    bottom: 20px;
+}
+
+.block-center {
+    position: absolute;
+    left: 30%;
+    bottom: 20px;
+}
+
+.block-right {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+
+.email-field {
+    margin-left: 50px;
+    width: 250px;
+    height: 20px;
+    font-size: 16px;
+}
+
+.email-field::placeholder {
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+}
